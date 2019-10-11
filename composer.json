@@ -1,0 +1,27 @@
+{
+  "name": "thijsferyn/edgestash-blade",
+  "description": "The EdgestashBlade Laravel package adds Edgestash support to Blade. Edgestash is a Varnish Enterprise module that processes Mustache templates on the edge.",
+  "keywords": ["caching","varnish","edgestash","blade","laravel","mustache"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Thijs Feryn",
+      "email": "thijs@feryn.eu"
+    }
+  ],
+  "require": {
+    "php": "^7.2",
+    "laravel/framework": "^6.0"
+  },
+  "autoload": {
+    "psr-4": { "ThijsFeryn\\EdgestashBlade\\": "" }
+  },
+  "minimum-stability": "stable",
+  "extra": {
+    "laravel": {
+      "providers": [
+        "ThijsFeryn\\EdgestashBlade\\EdgestashBladeServiceProvider"
+      ]
+    }
+  }
+}
