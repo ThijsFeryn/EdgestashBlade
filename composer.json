@@ -20,7 +20,7 @@
   "extra": {
     "laravel": {
       "providers": [
-        "ThijsFeryn\\EdgestashBlade\\EdgestashBladeServiceProvider"
+        "ThijsFeryn\\EdgestashBlade\\Provider\\EdgestashBladeServiceProvider"
       ]
     }
   }
