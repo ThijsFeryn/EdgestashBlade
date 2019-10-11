@@ -8,6 +8,16 @@ Edgestash allows for JSON data to be composed into a response using Mustache syn
 
 This package offers a couple of custom Blade directives that facilitate the use of Edgestash in an unobtrusive way, allowing you to efficiently cache personalized data.
 
+## Installation
+
+You can install `EdgestashBlade` with [Composer](https://getcomposer.org) and this package [listed on Packagist](https://packagist.org/packages/thijsferyn/edgestash-blade). Please run the following command to install the package in your Laravel application:
+
+```
+composer require thijsferyn/edgestash-blade
+```
+
+Once the dependencies are installed, you will need to register `ThijsFeryn\EdgestashBlade\Middleware\EdgestashBladeMiddleware` as middleware in your `Kernel.php`
+
 ## How does Edgestash work?
 
 [The VCL example on the Edgestash documentation page](https://docs.varnish-software.com/varnish-cache-plus/vmods/edgestash/#vcl-example) shows how the Mustache template and the JSON data are cached separately.
